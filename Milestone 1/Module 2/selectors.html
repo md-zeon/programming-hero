@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        p {
+            color: red;
+        }
+        .aqua {
+            color: aqua;
+        }
+        #fifth, li {
+            font-size: 26px;
+        }
+        .yellow, .holud {
+            background-color: yellow;
+        }
+        .bold {
+            font-weight: 800;
+        }
+        input[type="password"] {
+            color: red;
+        }
+        input[type = "text"] {
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p>My 1st <span class="aqua">line CSS</span></p>
+    <p class="yellow">My 2nd line CSS</p>
+    <p>My 3rd line CSS</p>
+    <p class="yellow bold">My 4th line CSS</p>
+    <p id="fifth" class="holud">My 5th line CSS</p>
+    <p class="bold">My 6th line CSS</p>
+    <p>My 7th line CSS</p>
+
+    <ol>
+        <li>Element Selector</li>
+        <li>ID Selector</li>
+        <li class="holud bold">Class Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>
