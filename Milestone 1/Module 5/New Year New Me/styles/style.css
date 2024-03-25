@@ -87,4 +87,23 @@ body {
     color: #16D887;
 }
 
+.my-plans {
+    text-align: center;
+    padding: 100px 50px;
+}
+.my-plans .plans {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
 
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.plan-desc {
+    color: #444343;
+}
