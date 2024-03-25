@@ -15,6 +15,17 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-right: 20px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 .section-title {
@@ -64,9 +75,9 @@ nav ul li a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .banner {
