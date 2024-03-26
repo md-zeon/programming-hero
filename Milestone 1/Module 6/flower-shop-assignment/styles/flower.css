@@ -154,3 +154,71 @@ header {
 .highlight {
     color: #E55473;
 }
+
+.insta-photo {
+    width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.insta-photo p {
+    margin-bottom: 30px;
+}
+
+.album {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* latest deals css styles */
+
+.latest-deals {
+    width: 1440px;
+    text-align: center;
+    background-image: url('../images/Rectangle 9.png');
+    margin: 150px auto;
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.latest-deals p {
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact input[type="email"] {
+    width: 800px;
+    padding: 20px 15px;
+    font-size: 18px;
+    background: #fff;
+    border: 0;
+    border-radius: 8px;
+    margin-right: 14px;
+}
+
+footer {
+    text-align: center;
+    background-color: #111010;
+    color: #fff;
+    padding: 128px 0;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-desc {
+    font-size: 18px;
+    width: 595px;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #ffffff66;
+}
