@@ -200,29 +200,6 @@ header {
     margin-right: 14px;
 }
 
-.footer {
-    text-align: center;
-    background-color: #111010;
-    color: #fff;
-    padding: 128px 0;
-}
-
-.footer-title {
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.footer-desc {
-    font-size: 18px;
-    width: 595px;
-    margin: 0 auto;
-}
-
-.copyright {
-    margin-top: 30px;
-    color: #ffffff66;
-}
-
 .delivery {
     width: 1440px;
     margin: 150px auto;
@@ -262,4 +239,27 @@ header {
 
 .delivery-form textarea {
     font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #111010;
+    color: #fff;
+    padding: 128px 0;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-desc {
+    font-size: 18px;
+    width: 595px;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #ffffff66;
 }
