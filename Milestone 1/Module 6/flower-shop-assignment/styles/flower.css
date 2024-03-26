@@ -200,7 +200,7 @@ header {
     margin-right: 14px;
 }
 
-footer {
+.footer {
     text-align: center;
     background-color: #111010;
     color: #fff;
@@ -221,4 +221,45 @@ footer {
 .copyright {
     margin-top: 30px;
     color: #ffffff66;
+}
+
+.delivery {
+    width: 1440px;
+    margin: 150px auto;
+    padding: 120px 0;
+    background-color:#fdf6f8;
+}
+
+.delivery h3, .delivery p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.delivery-form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.delivery-form label {
+    font-size: 20px;
+}
+
+.delivery-form input {
+    display: block;
+    width: 800px;
+    padding: 20px 15px;
+    font-size: 18px;
+    background: #fff;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.delivery-form button {
+    display: block;
+}
+
+.delivery-form textarea {
+    font-size: 20px;
 }
