@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ /* common css styles */
+
+.btn-primary {
+    background-color: #E55473;
+    color: #eee;
+    padding: 20px 44px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-desc {
+    color: #27272799;
+    width: 38%;
+    margin: 0 auto;
+}
+
+ /* header styles css */
+
+header {
+    background-image: url('../images/pngwing 10.png');
+    background-color: #e554731a;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    padding: 150px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    width: 60%;
+}
+
+.header-content h2{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 18px;
+    color: #27272799;
+    margin-bottom: 20px;
+}
+
+
+ /* Featured section css styles */
+
+.featured {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+.flower-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.flower-container > div {
+    width: 464px;
+    height: 605px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80%;
+    border-radius: 45% 45% 0 0;
+}
+
+.flower-container .flower-window1 {
+    background-color: #a7216226;
+    background-image: url('../images/pngwing 6.png');
+}
+
+.flower-container .flower-window2 {
+    background-color: #0597a026;
+    background-image: url('../images/pngwing 5.png');
+    background-position: center;
+}
+
+.flower-container .flower-window3 {
+    background-color: #477D1126;
+    background-image: url('../images/pngwing 7.png');
+}
+
+.flower-title {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* service section styles */
+
+.services {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 85px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #272727cc;
+}
+
+/* hot deals section styles */
+
