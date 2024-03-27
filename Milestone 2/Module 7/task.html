@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task</title>
+    <style>
+        .task1 {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .task1 .left, .task1 .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .task1 .left {
+            width: 30%;
+            height: 100%;
+            background-color: blanchedalmond;
+        }
+        .task1 .right {
+            width: 60%;
+            height: 100%;
+            background-color: gray;
+        }
+
+        @media screen and (max-width: 576px) {
+            .task1 {
+                flex-direction: column;
+            }
+            .task1 .left, .task1 .right {
+                width: 100%;
+            }
+        }
+
+        .task2 {
+            font-size: 30px;
+            font-weight: 800;
+            color: aliceblue;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+        }
+
+        .b1 {
+            grid-row: 1 / span 2;   
+        }
+        .b2 {
+            grid-column: 2 / span 2;
+        }
+
+
+        .box:first-child {
+            background-color: brown;
+        }
+        .box:last-child {
+            background-color: gray;
+        }
+        .box:nth-child(2) {
+            background-color: orange;
+        }
+        .box:nth-child(3) {
+            background-color: purple;
+        }
+
+        .task3 img {
+            width: 100%;
+        }
+        
+        .card {
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .card img{
+            width: 40%;
+        }
+
+        .card button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: aliceblue;
+            border: 0;
+            border-radius: 5px;
+        }
+        
+        @media screen and (max-width:576px) {
+            .card {
+                flex-direction: column;
+            }
+            .card img {
+                width: 100%;
+            }
+        }
+        
+        .boxy {
+            display: flex;
+            padding: 10px;
+        }
+        .boxy img {
+            width: 45%;
+        }
+
+        @media screen and (max-width:576px) {
+            .boxy {
+                flex-direction: column;
+            }
+            .two {
+                flex-direction: column-reverse;
+            }
+            .boxy img {
+                width: 100%;
+            }
+        }
+        
+        
+        .task4,.task5 {
+            border: 2px solid tomato;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Task 01</h2>
+    <div class="task1">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </div>
+
+    <h2>Task 02</h2>
+    <div class="task2">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+
+    <h2>Task 03</h2>
+    <div class="task3">
+        <img src="images/food.jpg" alt="">
+    </div>
+
+    <h2>Task 04</h2>
+    <div class="task4">
+        <div class="card">
+            <img src="images/cake.jpg" alt="">
+            <div>
+                <h4>Post title will be here</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium eligendi odit sit ea quibusdam debitis expedita odio hic a?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/food.jpg" alt="">
+            <div>
+                <h4>Post title will be here</h4>
+                <p>Tempora, libero voluptatum laboriosam, fugiat provident obcaecati exercitationem cupiditate eaque nulla ad doloremque dignissimos sunt fuga, quod consequatur animi recusandae?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <h2>Task 05</h2>
+    <div class="task5">
+        <div class="boxy">
+            <img src="images/food.jpg" alt="">
+            <div>
+                <h2>Why do we eat it?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea minima tenetur suscipit laudantium nam sequi ab quae totam commodi?</p>
+                <p>Quasi consequuntur, accusamus, excepturi ipsam nobis nisi, et sapiente ducimus aliquam nesciunt quae earum ipsa officiis dolore odio? Molestiae, molestias?</p>
+            </div>
+        </div>
+        <div class="boxy two">
+            <div>
+                <h2>Why do we eat it?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea minima tenetur suscipit laudantium nam sequi ab quae totam commodi?</p>
+                <p>Quasi consequuntur, accusamus, excepturi ipsam nobis nisi, et sapiente ducimus aliquam nesciunt quae earum ipsa officiis dolore odio? Molestiae, molestias?</p>
+            </div>
+            <img src="images/food.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
