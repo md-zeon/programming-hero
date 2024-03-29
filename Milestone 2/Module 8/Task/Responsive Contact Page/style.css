@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    background-image: url('images/bg-image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.icon {
+    padding: 20px 0 44px 50px;
+}
+
+.title {
+    width: 700px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.desc {
+    width: 730px;
+    font-size: 32px;
+    text-align: center;
+    color: #CDD5E0;
+    padding: 16px 0 72px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 746px;
+    padding: 32px;
+    margin: 0 auto;
+    background-color: #cdd5e034;
+    border-radius: 30px;
+}
+
+.dropdown {
+    margin-top: 24px;
+}
+
+.info input, .dropdown select {
+    display: block;
+    font-size: 16px;
+    background-color: #F8FAFC;
+    color: #CDD5E0;
+    font-weight: bold;
+    padding: 24px 0 24px 18px;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.info input {
+    width: 95%;
+}
+
+#msg {
+    width: 98%;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-top: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+#msg::placeholder {
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+
+.dropdown select {
+    color: #000;
+}
+
+option {
+    color: #000;
+}
+
+label {
+    width: 100%;
+    font-size: 14px;
+    color: #F8FAFC;
+}
+
+.info, .dropdown {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 24px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 100%;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #4036A9;
+    padding: 24px 0;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .form {
+        width: 600px;
+    }
+    .title {
+        width: 80%;
+        font-size: 40px;
+    }
+    .desc {
+        font-size: 20px;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .form {
+        width: 70%;
+    }
+
+    .info, .dropdown {
+        flex-direction: column;
+    }
+    .title {
+        width: 80%;
+        font-size: 35px;
+    }
+    .desc {
+        font-size: 16px;
+        width: 90%;
+    }
+}
