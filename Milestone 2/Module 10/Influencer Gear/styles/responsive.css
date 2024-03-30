@@ -14,11 +14,11 @@
     .banner {
         padding: 50px 0;
     }
-    .banner, nav {
+    .banner, nav, .features {
         flex-direction: column-reverse;
         gap: 0.85rem;
     }
-    .banner-content h1, .banner-content p {
+    .banner-content h1, .banner-content p, .features .section-desc {
         width: 100%;
     }
     .banner-content h1 {
@@ -36,6 +36,14 @@
     .banner-img {
         padding: 0 38px;
     }
+
+    .section-title {
+        text-align: center;
+    }
+    .card {
+        flex-basis: 100%;
+    }
+    
 }
 
 
@@ -62,5 +70,20 @@
     }
     .section-desc {
         font-size: 1rem;
+    }
+    .features {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .features p {
+        width: 100%;
+    }
+    .features .btn-primary {
+        margin: 0 auto;
+    }
+
+    .card {
+        flex-basis: 48%;
     }
 }
