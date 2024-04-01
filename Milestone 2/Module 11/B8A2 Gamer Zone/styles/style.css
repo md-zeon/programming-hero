@@ -15,6 +15,7 @@
 .pink-highlight {
     background: var(--secondary-gradient);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -63,6 +64,7 @@ nav{
 .purple-highlight {
     background: var(--primary-gradient);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -88,7 +90,6 @@ nav{
 .left-banner h1 {
     font-size: 95px;
     font-weight: 800;
-    /* margin-bottom: 30px; */
 }
 
 .left-banner p {
@@ -258,3 +259,64 @@ nav{
 .card-img:hover .watch{
     opacity: 1;
 }
+
+
+
+.play-games, .play-games-2 {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin: 120px 0;
+    padding: 0 240px;
+}
+
+.left-section {
+    flex-basis: 40%;
+    margin-right: 120px;
+}
+
+.play-games-2 .left-section {
+    margin-left: 120px;
+    margin-right: 0;
+} 
+
+.left-section .section-title {
+    margin-bottom: 24px;
+}
+
+.right-section {
+    flex-basis: 60%;
+}
+
+.img-1 {
+    position: relative;
+    width: 85%;
+    margin-left: auto;
+}
+
+.play-games-2 .img-1 {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: -15%;
+    left: -25%;
+    width: 66%;
+}
+
+.play-games-2 .img-2 {
+    right: -25%;
+    left: auto;
+}
+
+.right-section img {
+    display: inline-block;
+    width: inherit;
+}
+
+.play-games-2 {
+    text-align: left;
+}
+

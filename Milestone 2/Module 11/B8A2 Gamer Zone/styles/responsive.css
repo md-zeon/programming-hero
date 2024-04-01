@@ -1,0 +1,38 @@
+@media screen and (max-width: 776px) {
+    nav, .menu, .banner, .gamer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        padding: 45px 50px;
+        margin: 0 auto;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+
+    #btn a {
+        padding: 10px 20px;
+    }
+
+    .banner, .gamer, .video{
+        padding: 20px;
+    }
+    .left-banner {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .right-gamer {
+        text-align: center;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card .section-desc {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
