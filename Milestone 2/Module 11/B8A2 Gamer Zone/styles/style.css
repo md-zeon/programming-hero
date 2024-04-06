@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
 }
 
 :root {
@@ -320,3 +323,128 @@ nav{
     text-align: left;
 }
 
+.careers {
+    display: flex;
+    align-items: center;
+    background: var(--secondary-gradient);
+    color: #fff;
+}
+
+.left-career {
+    flex-basis: 50%;
+    padding-top: 100px;
+    padding-left: 240px;
+    padding-bottom: 100px;
+}
+
+.careers .left-career .section-desc {
+    color: #fff;
+}
+
+.careers .left-career {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+}
+
+.career-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.career-container ul {
+    list-style: none;
+}
+
+.career-container ul li {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.careers .right-career {
+    flex-basis: 50%;
+}
+
+.careers .right-career img {
+    width: 100%;
+}
+
+/* career style end  */
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fff9fc;
+    padding: 120px 240px;
+    gap: 30px;
+}
+
+.categories .badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 5px 20px;
+    gap: 10px;
+    transition: all 0.3s;
+}
+
+.categories .badge:hover {
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 240px;
+    background: #0B0223;
+    color: #fff;
+    gap:56px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .social-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .social-icon a i {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright, .terms li a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.terms {
+    margin-bottom: 20px;
+}

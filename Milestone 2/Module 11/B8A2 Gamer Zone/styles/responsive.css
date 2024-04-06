@@ -1,5 +1,5 @@
-@media screen and (max-width: 776px) {
-    nav, .menu, .banner, .gamer {
+@media screen and (max-width: 1024px) {
+    nav, .menu, .banner, .gamer, .play-games, .play-games-2, .careers {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -16,10 +16,10 @@
         padding: 10px 20px;
     }
 
-    .banner, .gamer, .video{
+    .banner, .gamer, .video, .play-games, .play-games-2, .left-career, .categories, footer{
         padding: 20px;
     }
-    .left-banner {
+    .left-banner, .play-games, .play-games-2 {
         padding-left: 0;
         text-align: center;
     }
@@ -28,11 +28,43 @@
         text-align: center;
     }
     .card-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .card .section-desc {
         font-size: 1rem;
         text-align: center;
+    }
+
+    .left-section {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .play-games-2 .left-section {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .play-games-2 .section-title {
+        margin-top: 30px;
+    }
+
+    .left-section, .right-section {
+        flex-basis: 100%;
+    }
+    
+    .careers .career-container ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .careers .section-desc {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
