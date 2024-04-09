@@ -27,19 +27,93 @@
         }
       </script>
 
+      <!-- Font awesome cdn -->
+      <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
+
       <!-- custom styles -->
     <style>
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+        .btn-bg {
+            background-image: linear-gradient(to right, var(--tw-gradient-stops));
+            --tw-gradient-from: #FF0000 var(--tw-gradient-from-position);
+            --tw-gradient-to: rgb(255 0 0 / 0) var(--tw-gradient-to-position);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+            --tw-gradient-to: #FF8938 var(--tw-gradient-to-position);
+        }
     </style>
 </head>
 <body class="font-manrope">
-    <header>
-
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold">
+                    It's good <br>
+                    tea time at The <br>
+                    Tea House
+                </h1>
+                <p class="py-6">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="btn btn-bg text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i></button>
+              </div>
+              <div class="">
+                <img src="images/banner.png" class="lg:max-w-sm relative -z-10"/>
+                <!-- rating badge -->
+                <div class="-mt-16 flex items-center gap-4 shadow-lg rounded-lg p-5 w-fit bg-white">
+                    <i class="fa-solid fa-star text-2xl md:text-3xl text-amber-400"></i>
+                    <div class="">
+                        <h3 class="text-2xl md:text-3xl">5.00</h3>
+                        <p class="text-sm md:text-base">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+        <!-- featured section -->
+        <section class="text-center my-24">
+            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <!-- featured card container -->
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <!-- first card -->
+                <div class="card p-8 bg-[#f4f4f4] shadow-xl">
+                    <figure><img src="images/tea-1.png" alt="Tea"/></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="card p-8 bg-[#f4f4f4] shadow-xl">
+                    <figure><img src="images/tea-2.png" alt="Tea"/></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Black Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="card p-8 bg-[#f4f4f4] shadow-xl">
+                    <figure><img src="images/tea-3.png" alt="Tea"/></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Lemon Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="card p-8 bg-[#f4f4f4] shadow-xl">
+                    <figure><img src="images/tea-4.png" alt="Tea"/></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="text-2xl font-bold">Green Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
