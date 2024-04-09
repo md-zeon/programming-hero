@@ -59,9 +59,9 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+    <header class="container mx-auto px-4">
+        <div class="my-20">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
               <div>
                 <h1 class="text-5xl lg:text-7xl font-extrabold">
                     It's good <br>
@@ -74,7 +74,7 @@
                 <button class="btn btn-bg text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i></button>
               </div>
               <div class="">
-                <img src="images/banner.png" class="lg:max-w-sm relative -z-10"/>
+                <img src="images/banner.png" class="relative -z-10"/>
                 <!-- rating badge -->
                 <div class="-mt-16 flex items-center gap-4 shadow-lg rounded-lg p-5 w-fit bg-white">
                     <i class="fa-solid fa-star text-2xl md:text-3xl text-amber-400"></i>
@@ -87,7 +87,7 @@
             </div>
           </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto px-4">
         <!-- featured section -->
         <section class="text-center my-24">
             <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
@@ -210,9 +210,98 @@
                 </div>
             </div>
         </section>
+        <!-- news & events section -->
+        <section class="my-24 text-center">
+            <h2 class="text-5xl font-extrabold mb-5">News & Events</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <!-- card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-start">
+                <!-- card 1 -->
+                <div class="card bg-base-100 border border-gray-100 shadow-xl space-y-3">
+                    <figure class="pt-8"><img src="images/news-1.png" alt="News"/></figure>
+                    <div class="card-body">
+                      <p class="text-sm">Feb 05, 2027</p>
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions">
+                        <button class="font-extrabold">Learn More</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 border border-gray-100 shadow-xl space-y-3">
+                    <figure class="pt-8"><img src="images/news-2.png" alt="News"/></figure>
+                    <div class="card-body">
+                      <p class="text-sm">Feb 05, 2027</p>
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions">
+                        <button class="font-extrabold">Learn More</button>
+                      </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 border border-gray-100 shadow-xl space-y-3">
+                    <figure class="pt-8"><img src="images/news-3.png" alt="News"/></figure>
+                    <div class="card-body">
+                      <p class="text-sm">Feb 05, 2027</p>
+                      <h2 class="card-title">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <div class="card-actions">
+                        <button class="font-extrabold">Learn More</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="container mx-auto bg-[#fff0ea] px-4 lg:px-24 py-2 lg:py-10">
+        <div class="flex flex-col lg:flex-row justify-center items-center lg:justify-between my-8 lg:my-24 px-4 lg:px-10">
+            <img class="h-12 w-12" src="images/cup.png" alt="">
+            <p class="flex gap-4 items-center">
+                <span>Ready to get started?</span>
+                <button class="btn btn-bg text-white font-extrabold">Get started</button>
+            </p>
+        </div>
+        <div class="footer p-4 lg:p-10 text-base-content">
+            <nav>
+                <h6 class="footer-title">Services</h6> 
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+              </nav> 
+              <nav>
+                <h6 class="footer-title">Company</h6> 
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+              </nav> 
+              <nav>
+                <h6 class="footer-title">Legal</h6> 
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+              </nav> 
+              <form>
+                <h6 class="footer-title">Newsletter</h6> 
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                  </label> 
+                  <div class="join justify-between">
+                    <input type="text" placeholder="username@site.com" class="input bg-transparent border-b-2 outline-none border-b-black" /> 
+                    <button class="btn btn-bg rounded-full text-white"><i class="fa-solid fa-chevron-right"></i></button>
+                  </div>
+                </fieldset>
+              </form>
+        </div>
+        <div class="text-center mt-10">
+            <aside>
+              <p>Copyright &copy; 2027 UIDesign.to - All rights reserved.</p>
+            </aside>
+        </div>
+      </footer>
 </body>
 </html>
