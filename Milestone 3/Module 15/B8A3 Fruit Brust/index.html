@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Brust</title>
+    <title>Fruit Burst</title>
         <!-- tailwind and daisy ui cdn -->
         <link
         href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css"
@@ -46,14 +46,23 @@
         .d-none {
             display: none;
         }
+        .btn-main {
+          color: #fff;
+          padding: 20px 30px;
+          background: #f85559;
+          font-weight: 800;
+          border-radius: 8px;
+          font-size: 20px;
+        }
       </style>
 </head>
 <body class="font-lato">
-    <header class="container mx-auto">
+    <header class="container mx-auto py-14">
+      <!-- Navbar -->
         <nav>
             <div class="navbar flex justify-between items-center rounded-full bg-main text-white py-3 px-4">
                 <div class="d-none lg:flex">
-                    <ul class="menu menu-horizontal px-1 font-medium">
+                    <ul class="menu menu-horizontal px-1 font-medium text-lg">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
@@ -83,5 +92,96 @@
             </div>
         </nav>
     </header>
+    <main class="container mx-auto">
+      <!-- banner section -->
+      <section class="">
+        <!-- carousel -->
+        <div class="carousel w-full rounded-lg">
+          <div id="slide1" class="carousel-item relative w-full">
+            <!-- slide 1 -->
+            <div class="w-full bg-cover bg-no-repeat -z-10" style="background-image: url('images/banner1.png');">
+              <div class="w-full pt-20 pb-52 text-white text-center bg-gradient-to-b from-[#121212] to-[#12121200]">
+                <h1 class="text-7xl font-extrabold mb-6">
+                  Exotic tastes at your
+                  <br>
+                  doorstep
+                </h1>
+                <p class="text-xl">We supply highly quality organic products</p>
+                <button class="mt-8 btn-main">Shop Now</button>
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <!-- slide 2 -->
+            <div class="w-full bg-cover bg-no-repeat -z-10" style="background-image: url('images/banner2.png');">
+              <div class="w-full pt-20 pb-52 text-white text-center bg-gradient-to-b from-[#121212] to-[#12121200]">
+                <h1 class="text-7xl font-extrabold mb-6">
+                  Exotic tastes at your
+                  <br>
+                  doorstep
+                </h1>
+                <p class="text-xl">We supply highly quality organic products</p>
+                <button class="mt-8 btn-main">Shop Now</button>
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <!-- slide 3 -->
+            <div class="w-full bg-cover bg-no-repeat -z-10" style="background-image: url('images/banner3.png');">
+              <div class="w-full pt-20 pb-52 text-white text-center bg-gradient-to-b from-[#121212] to-[#12121200]">
+                <h1 class="text-7xl font-extrabold mb-6">
+                  Exotic tastes at your
+                  <br>
+                  doorstep
+                </h1>
+                <p class="text-xl">We supply highly quality organic products</p>
+                <button class="mt-8 btn-main">Shop Now</button>
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <!-- slide 4 -->
+            <div class="w-full bg-cover bg-no-repeat -z-10" style="background-image: url('images/banner4.png');">
+              <div class="w-full pt-20 pb-52 text-white text-center bg-gradient-to-b from-[#121212] to-[#12121200]">
+                <h1 class="text-7xl font-extrabold mb-6">
+                  Exotic tastes at your
+                  <br>
+                  doorstep
+                </h1>
+                <p class="text-xl">We supply highly quality organic products</p>
+                <button class="mt-8 btn-main">Shop Now</button>
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-none lg:flex justify-evenly py-12 rounded-lg bg-white -mt-32 z-40 mx-auto w-11/12">
+          <img class="w-auto" src="images/fruit1.png" alt="">
+          <img class="w-auto" src="images/fruit2.png" alt="">
+          <img class="w-auto" src="images/fruit3.png" alt="">
+          <img class="w-auto" src="images/fruit4.png" alt="">
+          <img class="w-auto" src="images/fruit5.png" alt="">
+          <img class="w-auto" src="images/fruit6.png" alt="">
+          <img class="w-auto" src="images/fruit7.png" alt="">
+          <img class="w-auto" src="images/fruit8.png" alt="">
+        </div>
+      </section>
+      <!--  -->
+    </main>
 </body>
 </html>
