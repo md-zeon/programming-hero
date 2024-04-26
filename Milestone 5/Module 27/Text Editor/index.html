@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glassy-background {
+           background-color: rgba(255, 255, 255, 0.3);
+           backdrop-filter: blur(10px);
+           -webkit-backdrop-filter: blur(10px);
+           border: 1px solid rgba(255, 255, 255, 0.3);
+           padding: 0px 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="container mx-auto font-mono">
+        <section class="w-11/12 bg-sky-400 rounded-lg mx-auto py-5">
+            <h2 class="text-3xl text-center">My Text Editor</h2>
+            <div class="max-w-3xl mx-auto bg-blue-300 my-4 border-2 border-black p-3">
+                <div class="flex justify-between items-center border-b-2 border-black pb-2">
+                    <div class="">
+                        <button id="bold-btn" value="off"><i class="fa fa-bold"></i></button>
+                        <button id="italic-btn" value="off"><i class="fa fa-italic"></i></button>
+                        <button id="underline-btn" value="off"><i class="fa fa-underline"></i></button>
+                    </div>
+                    <div class="">
+                        <button id="align-left-btn" value="on"><i class="fa fa-align-left"></i></button>
+                        <button id="align-center-btn" value="off"><i class="fa fa-align-center"></i></button>
+                        <button id="align-right-btn" value="off"><i class="fa fa-align-right"></i></button>
+                        <button id="align-justify-btn" value="off"><i class="fa fa-align-justify"></i></button>
+                    </div>
+                    <div class="me-3">
+                        <input type="number" min="10" max="80" name="" id="font-size" class="w-8">
+                        <button id="text-btn" class="font-bold" value="off">aA</button>
+                        <input type="color" name="" id="color-picker">
+                    </div>
+                </div>
+                <div contenteditable="true" name="" id="text-box" class="bg-white w-full mt-4 min-h-96 p-2"></div>
+            </div>
+        </section>
+    </main>
+    <script src="js/utility.js"></script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
