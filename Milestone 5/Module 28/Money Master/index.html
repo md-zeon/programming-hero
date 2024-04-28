@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme = "light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h2 class="text-4xl font-bold text-center my-8">Money Master</h2>
+    <div class="flex gap-5 flex-col lg:flex-row">
+        <div class="flex-1"><img src="money.jpeg" alt=""></div>
+        <div class="flex flex-col flex-1 bg-gray-100 p-6 items-center">
+            <h3 class="text-2xl font-bold text-center py-3">Income</h3>
+            <label for="">Income:
+                <input type="number" min="0" class="my-2 input-sm" id="income">
+            </label>
+            <h3 class="text-2xl font-bold text-center py-3">Expenses</h3>
+            <label for="">Food:
+                <input type="number" min="0" class="my-2 input-sm" id="food">
+            </label>
+            <label for="">Rent:
+                <input type="number" min="0" class="my-2 input-sm" id="rent">
+            </label>
+            <label for="">Clothes:
+                <input type="number" min="0" class="my-2 input-sm" id="clothes">
+            </label>
+            <button class="btn btn-sm btn-primary" id="calculate">Calculate</button>
+            <h2 class="text-2xl font-bold text-center py-3">Total Expenses: <span id="total-expenses">00.00</span></h2>
+            <h2 class="text-2xl font-bold text-center py-3">Balance: <span id="balance">00.00</span></h2>
+            <div class="">
+                <label for="">Save:
+                    <input type="number" min="0" max="100" class="my-2 input-sm w-16" id="save">
+                </label>
+                <span>&nbsp;&nbsp; % &nbsp;&nbsp;</span>
+                <button class="btn btn-sm btn-primary" id="save-btn">Save</button>
+            </div>
+            <h2 class="text-2xl font-bold text-center py-3">Saving Amount: <span id="savings">00.00</span></h2>
+            <h2 class="text-2xl font-bold text-center py-3">Remaining Balance: <span id="remaining-balance">00.00</span></h2>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
