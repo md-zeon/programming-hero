@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <!-- Daisy ui and tailwind css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS Styles -->
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-poppins">
+    <header class="bg-[#0d6efd0d] pb-64">
+        <div class="container mx-auto py-12 px-8 flex justify-between items-center">
+            <h2 class="font-bold text-2xl">Hot Gadgets</h2>
+            <button class="btn btn-primary text-white">Sign Up</button>
+        </div>
+        <div class="max-w-4xl mx-auto my-20 text-center">
+            <h1 class="text-6xl font-bold">Apple Iphone 13 Pro Max</h1>
+            <p class="text-lg text-[#706F6F] my-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+            <button class="btn btn-primary text-white">Buy Now</button>
+        </div>
+    </header>
+    <img class="mx-auto -mt-80" src="images/banner.png" alt="">
+    <main class="container mx-auto">
+        <h2 class="font-semibold text-4xl text-center">Search your phone</h2>
+        <div class="join input input-bordered pe-0 flex mx-auto max-w-3xl my-8 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-5 h-5 opacity-70"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd" /></svg>
+            <input id="search-field" class="flex-1 join-item" placeholder="Search your phone"/>
+            <button onclick="searchHandler()" class="btn btn-primary text-white join-item">Search</button>
+        </div>
+        <div id="loading-spinner" class="text-center invisible">
+            <span class="loading loading-spinner loading-lg"></span>
+        </div>
+        <p class="text-center py-4 font-semibold" ><span id="not-found"></span></p>
+        <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        </div>
+
+        <!-- Open the modal using ID.showModal() method -->
+        <dialog id="show_details_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+            <div id="show-modals-container" class="space-y-6">
+
+            </div>
+            <div class="modal-action">
+            <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn btn-primary">Close</button>
+            </form>
+            </div>
+        </div>
+        </dialog>
+
+        <div id="show-all-container" class="hidden text-center">
+            <button onclick="handleShowAll()" class="btn btn-primary font-bold text-white mt-12 mb-28">Show All</button>
+        </div>
+    </main>
+    <footer class="bg-[#0d6efd0d] p-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center p-10">
+            <div class="space-y-2">
+                <h1 class="text-5xl font-bold">Hot Gadgets</h1>
+                <p class="text-lg font-semibold">You can definitely work.</p>
+            </div>
+            <div class="space-x-8">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <button class="btn btn-primary text-white font-bold">Join Premium</button>
+            </div>
+            <hr class="divider">
+        </div>
+        <div class="container mx-auto footer p-10 text-base-content">
+            <nav>
+              <h6 class="footer-title">Services</h6> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Services</h6> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Company</h6> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <h6 class="footer-title">Legal</h6> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/phone.js"></script>
+</body>
+</html>
