@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <!-- Daisy ui and tailwind css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS Styles -->
+    <style>
+        .font-workSans {
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-workSans">
+    <header class="text-center my-5">
+        <h1 class="text-5xl font-semibold">AI Universe Hub</h1>
+        <button class="btn btn-error text-white text-xl font-semibold my-8">Sort By Date</button>
+    </header>
+    <main>
+        <div id="loading-spinner" class="text-center">
+            <span class="loading loading-spinner loading-lg"></span>
+        </div>
+        <div id="cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4">
+        </div>
+
+        <!-- You can open the modal using ID.showModal() method -->
+        <dialog id="my_modal_5" class="modal">
+        <div class="modal-box overflow-visible lg:max-w-5xl">
+            <form method="dialog">
+            <button class="btn btn-sm btn-circle btn-error absolute -right-3 -top-3 text-white">✕</button>
+            </form>
+            <div id="modal-container">
+            </div>
+
+        </div>
+        </dialog>
+
+        <div id="see-more-container" class="text-center my-6">
+            <button onclick="seeMoreHandler()" class="btn btn-error rounded-lg text-xl text-white font-semibold">See More</button>
+        </div>
+    </main>
+    <script src="js/aiHub.js"></script>
+</body>
+</html>
