@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>My Blog</title>
-    <!-- Daisy Ui and tailwind CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Font Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <header>
-        <h1 class="text-3xl font-bold mb-6 text-center">My Blog</h1>
+<body class="bg-gray-100 text-gray-900 font-inter">
+    <header class="container mx-auto">
+        <h1 class="text-5xl font-bold my-6 text-center">My Blog</h1>
     </header>
-    <main>
-        <div class="container mx-auto p-6">
+    <main class="container mx-auto p-1 md:p-4 lg:p-6">
             <!-- Section on var, let, and const -->
             <section class="mb-8">
-                <h2 class="text-2xl font-semibold mb-4">1. Scope of <code>var</code>, <code>let</code>, and <code>const</code></h2>
+                <h2 class="text-4xl font-semibold mb-4">1. Scope of <code>var</code>, <code>let</code>, and <code>const</code></h2>
                 <p class="mb-4">
                     JavaScript has three keywords for declaring variables: <code>var</code>, <code>let</code>, and <code>const</code>. Each has its own scope and usage rules.
                 </p>
     
-                <h3 class="text-xl font-semibold mb-2">`var`</h3>
+                <h3 class="text-2xl font-semibold mb-2">`var`</h3>
                 <ul class="list-disc pl-6 mb-4">
                     <li><strong>Scope:</strong> Function scope; accessible within the function or globally if declared outside any function.</li>
                     <li><strong>Hoisting:</strong> Variables are hoisted to the top of their scope, which can lead to unexpected behavior.</li>
                     <li><strong>Reassignment and Redeclaration:</strong> Allows both reassignment and redeclaration within the same scope.</li>
                 </ul>
     
-                <h3 class="text-xl font-semibold mb-2">`let`</h3>
+                <h3 class="text-2xl font-semibold mb-2">`let`</h3>
                 <ul class="list-disc pl-6 mb-4">
                     <li><strong>Scope:</strong> Block scope; confined to the block where it is declared.</li>
                     <li><strong>Hoisting:</strong> Hoisted but inaccessible before its declaration.</li>
                     <li><strong>Reassignment and Redeclaration:</strong> Allows reassignment but not redeclaration within the same scope.</li>
                 </ul>
     
-                <h3 class="text-xl font-semibold mb-2">`const`</h3>
+                <h3 class="text-2xl font-semibold mb-2">`const`</h3>
                 <ul class="list-disc pl-6">
                     <li><strong>Scope:</strong> Block scope.</li>
                     <li><strong>Hoisting:</strong> Behaves like `let` in terms of hoisting.</li>
@@ -49,19 +52,19 @@
     
             <!-- Section on null and undefined -->
             <section class="mb-8">
-                <h2 class="text-2xl font-semibold mb-4">2. Use Cases of `null` and `undefined`</h2>
+                <h2 class="text-4xl font-semibold mb-4">2. Use Cases of `null` and `undefined`</h2>
                 <p class="mb-4">
                     `null` and `undefined` are special values in JavaScript representing the absence of a value or a variable that hasn't been initialized.
                 </p>
     
-                <h3 class="text-xl font-semibold mb-2">`undefined`</h3>
+                <h3 class="text-2xl font-semibold mb-2">`undefined`</h3>
                 <ul class="list-disc pl-6 mb-4">
                     <li>Represents a variable that hasn't been assigned a value yet.</li>
                     <li>Used when declaring a variable but not initializing it.</li>
                     <li>Represents a missing parameter in a function call or an unassigned object property.</li>
                 </ul>
     
-                <h3 class="text-xl font-semibold mb-2">`null`</h3>
+                <h3 class="text-2xl font-semibold mb-2">`null`</h3>
                 <ul class="list-disc pl-6 mb-4">
                     <li>Represents the intentional absence of a value.</li>
                     <li>Commonly used to indicate a non-existent object or a cleared variable.</li>
@@ -75,12 +78,12 @@
     
             <!-- Section on REST API -->
             <section>
-                <h2 class="text-2xl font-semibold mb-4">3. What is a REST API?</h2>
+                <h2 class="text-4xl font-semibold mb-4">3. What is a REST API?</h2>
                 <p class="mb-4">
                     REST (Representational State Transfer) is an architectural style for building networked applications, often used in web services. A REST API is an interface that follows the REST principles to interact with resources on a server.
                 </p>
     
-                <h3 class="text-xl font-semibold mb-2">Key Principles of REST</h3>
+                <h3 class="text-2xl font-semibold mb-2">Key Principles of REST</h3>
                 <ul class="list-disc pl-6 mb-4">
                     <li><strong>Statelessness:</strong> Each request must contain all the information needed to understand and process the request.</li>
                     <li><strong>Resource-Based:</strong> REST APIs are organized around resources, identified by unique URLs.</li>
@@ -93,7 +96,6 @@
                     REST APIs are simple, scalable, and widely supported, making them a popular choice for building web services and connecting different applications.
                 </p>
             </section>
-        </div>
     </main>
 </body>
 </html>
