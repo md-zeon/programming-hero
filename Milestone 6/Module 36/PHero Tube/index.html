@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme = "light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,13 +21,43 @@
         .font-inter {
             font-family: "Inter", sans-serif;
         }
+        .btn-main {
+            background-color: #ff1f3d;
+            color: #ffffff;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+        .btn-main:hover {
+          background-color: #ff1f3d;
+          color: #ffffff;
+        }
     </style>
 </head>
-<body class="font-inter">
+<body class="font-inter px-16">
     <header>
-        <nav>
-
+        <nav class="flex flex-col md:flex-row gap-3 justify-between items-center py-8 border-b-2">
+            <img src="Logo.png" alt="Logo">
+            <button id="sort-btn" class="btn">Sort By View</button>
+            <button class="btn btn-main">Blog</button>
         </nav>
     </header>
+    <main>
+        <!-- Category container -->
+        <div id="category-container" class="w-fit mx-auto py-8 space-x-6">
+        </div>
+        <div id="loading-spinner" class="text-center">
+            <span class="loading loading-spinner loading-lg"></span>
+        </div>
+        <!-- Content Container -->
+        <div id="content-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        </div>
+        <div class="text-center" id="error-msg">
+            
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
