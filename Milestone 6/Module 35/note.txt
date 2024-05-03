@@ -1,0 +1,145 @@
+# What is JavaScript?
+
+i. JavaScript is a highly abstracted programming language
+    - An abstraction is a way of
+        -- hiding the implementation details
+        -- Showing only the functionality to the users
+    -High Abstraction in JavaScript
+        -- We don't have to handle resource management and memory allocation
+        -- We don't have to handle garbage collection
+        -- Reduces details so that developers can focus on the logic better
+        -- Improves understandability as well as maintainability of the code
+
+ii. JavaScript collets garbage automatically
+    - Garbage Collection
+        -- JavaScript automatically collects unused data
+        -- Free the memory with the help of an algorithm called "Mark-and-sweep"
+        -- The garbage collector goes through the roots, marking (remembering) them on it's way
+        -- It then moves on to the references and and marks them as well
+        -- The cycle continues until the garbage collector visits all the roots and references
+        -- The garbage collector removes all the objects, except the marked ones
+
+iii. JavaScript is a JIT compiled language
+    - Just-In-Time
+        -- JavaScript is not a purely interpreted language
+        -- Modern JavaScript is JIT compiled
+        -- JUST-IN-TIME compiler converts the entire code into machine code and executes them immediately.
+
+iv. JavaScript is a multi-paradigm programming language
+    - Paradigm: code structure that will determine the style or a way of programming
+        1. Procedural programming
+            -- Involves writing down instructions
+            -- tells the computer what it should do step-by-step.
+
+        2. Object-Oriented programming
+            -- Modeling a System as a collection of objects
+            -- Objects contain both functions (or methods) and data.
+
+        3. Functional programming
+            -- An approach to software development that uses pure functions
+            -- To create maintainable software
+
+v. JavaScript is a proto-typed based programming language
+    - Proto-typed based
+        -- In JavaScript, everything (functions, array, objects) is object expect the primitive data
+        -- A prototypical object is an object used as a template from which to get the initial properties for a new object
+        -- Proto-type is a blue print
+
+vi. JavaScript is a dynamically typed programming language
+    - Dynamically-typed 
+        -- When you declare a variable, you do not need to specify what type this variable is
+        -- JavaScript engine infers what type this variable is based on the value assigned to at run time.
+        -- As JavaScript determines the type at runtime, we can redeclare the type
+
+
+
+# JavaScript and node js runs on V8 engine
+
+# Execution Context and Call Stack
+
+    - Execution Context
+        -- An execution context is an environment
+        -- Inside the execution context a piece of JavaScript code gets executed
+        -- variables, parameters, and other information related to the piece of code get stored in the execution context
+    
+    - There are two kinds of execution contexts:
+        1. Global Execution Context (GEC)
+            -- Whenever the JavaScript engine receives a script file, it first creates a default execution context known as the global execution context (GEC).
+                --- GEC is the base/default Execution Context
+                --- All JavaScript code that is not inside a function gets executed
+                --- For every JavaScript file, there can only be one GEC.
+
+        2. Function Execution Context (FEC)
+            -- Whenever a function is called, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC).
+                --- Every time a function is called, a new execution context is created for the function
+                --- Each function has its own execution context
+                --- Since every function call gets its own FEC, there can be more than one FEC in the run-time of a script
+
+    - Phases
+        -- The execution context is created in two Phases:
+            1. Creation Phase
+                --- Creation Phase is the Phase which the JS engine has called a function but it's execution has not started.
+                    ---- JS engine is in the compilation Phase
+                    ---- It just scans over the function code to compile the code
+                    ---- It doesn't execute any code
+            2. Execution Phase
+                --- During the execution phase the JavaScript engine executes the code line by line
+                    ---- assigns the values to variables and
+                    ---- executes the function calls
+
+
+    - Call Stack
+		-- The call stack is used by JavaScript to keep track of multiple function calls
+		-- In order to manage the execution contexts, the JavaScript engine uses a call stack.
+        -- Keeps track of all the operations in line to be executed
+        -- Whenever a function is finished, it is popped from the call stack
+
+
+
+# JavaScript is a single threaded and synchronous language
+    - Single-threaded
+        -- Single-threaded means only one statement is executed at a time
+        -- JavaScript only has one call stack
+        -- JavaScript runs code line by line
+        -- Must finish executing a piece of code before moving onto the next
+
+
+
+# Promise
+    - The Promise object represents the eventual completion (or failure) of an asynchronous operation and it's resulting value.
+    - A Promise is in one of these states:
+        1. Pending:
+            -- initial state, neither fullfilled nor rejected
+        2. Resolve:
+            -- the operation was completed successfully
+        3. Reject:
+            -- the operation failed
+
+
+
+# Fetch API
+    - The fetch() method starts the process of fetching a resource from a server.
+    - The fetch() method returns a promise that resolves to a Responsive Object.
+    - A fetch() method only rejects when a network error is encountered.
+
+
+# Async / Await
+    - "async/await" is a special syntax to work with promises in a more confortable way
+    - It's surprisingly easy to understand and use.
+    - The await keyword can only be used inside an async function
+    - The await keyword makes the function pause the execution and
+    - Wait for a resolved promise before it continues
+
+# Event Queue
+    - Sends new functions to the stack for processing.
+    - Follows the queue data structure
+    - Maintains the correct sequence in which all operation should be sent for execution.
+
+# try..catch
+    - The try statement defines a code block to run (to try)
+    - The catch statement defines a code block to any error
+
+# throw
+    - The throw statement defines a custom error
+    - You can throw an exception (throw an error)
+    - The exception can be String, a Number, a Boolean and an Object.
