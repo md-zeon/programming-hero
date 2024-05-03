@@ -146,5 +146,9 @@ const toggleLoadingSpinner = (isLoading) => {
     }
 }
 
+document.getElementById("blog-btn").addEventListener("click", () => {
+    window.location.href = "blog.html";
+})
+
 loadCategory();
 loadContent();
