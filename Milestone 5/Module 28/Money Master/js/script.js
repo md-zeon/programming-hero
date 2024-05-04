@@ -26,7 +26,6 @@ function getInputValue(inputId) {
     const inputElement = document.getElementById(inputId);
     const inputElementValue = inputElement.value;
     const inputValue = parseFloat(inputElementValue);
-    inputElement.value = '';
     return inputValue;
 }
 

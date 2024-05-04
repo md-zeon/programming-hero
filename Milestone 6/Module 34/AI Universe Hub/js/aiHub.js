@@ -2,6 +2,8 @@ const loadData = async (isSeeMore) => {
   const res = await fetch(`https://openapi.programming-hero.com/api/ai/tools`);
   const data = await res.json();
   const tools = data.data.tools;
+  const sortBtn = document.getElementById("sort-btn");
+  sortBtn.onclick = () => sortTools(tools, isSeeMore);
   loadingSpinnerToggle(true);
   displayTools(tools, isSeeMore);
 };
@@ -169,5 +171,20 @@ const addIntegrationsList = (elementId, integrations) => {
     element.appendChild(li);
   });
 };
+
+
+// sorting tools by dates
+const sortTools = (tools, isSeeMore) => {
+  loadingSpinnerToggle(true);
+    tools.sort((a, b) => {
+    const dateA = new Date(a.published_in);
+    const dateB = new Date(b.published_in);
+    return dateB - dateA;
+  });
+  
+ displayTools(tools, isSeeMore);
+ console.log("Sorting Contents Successful");
+};
+
 
 loadData();
