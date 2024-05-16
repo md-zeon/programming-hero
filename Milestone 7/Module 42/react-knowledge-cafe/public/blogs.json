@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "cover_pic": "http://surl.li/trxaz",
+        "title": "Exploring Quantum Computing",
+        "author": "John Doe",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-16",
+        "reading_time": 5,
+        "hashtags": ["technology", "development", "testing"]
+    },
+    {
+        "id": 2,
+        "cover_pic": "http://surl.li/trxbs",
+        "title": "Responsive Web Design Trends",
+        "author": "Jane Smith",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-15",
+        "reading_time": 7,
+        "hashtags": ["programming", "web", "design"]
+    },
+    {
+        "id": 3,
+        "cover_pic": "http://surl.li/trxcq",
+        "title": "Building RESTful APIs",
+        "author": "Alex Johnson",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-14",
+        "reading_time": 4,
+        "hashtags": ["frontend", "backend", "APIs"]
+    },
+    {
+        "id": 4,
+        "cover_pic": "http://surl.li/trxdd",
+        "title": "Data Visualization Techniques",
+        "author": "Emily Brown",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-13",
+        "reading_time": 6,
+        "hashtags": ["data", "analytics", "visualization"]
+    },
+    {
+        "id": 5,
+        "cover_pic": "http://surl.li/trxdn",
+        "title": "Software Development Best Practices",
+        "author": "Michael Lee",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-12",
+        "reading_time": 3,
+        "hashtags": ["coding", "software", "development"]
+    },
+    {
+        "id": 6,
+        "cover_pic": "http://surl.li/trxdx",
+        "title": "Machine Learning Algorithms",
+        "author": "Sophia Rodriguez",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-11",
+        "reading_time": 8,
+        "hashtags": ["AI", "data_science", "algorithms"]
+    },
+    {
+        "id": 7,
+        "cover_pic": "http://surl.li/trxed",
+        "title": "Effective Code Review Practices",
+        "author": "Daniel Park",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-10",
+        "reading_time": 6,
+        "hashtags": ["code_quality", "collaboration", "best_practices"]
+    },
+    {
+        "id": 8,
+        "cover_pic": "http://surl.li/trxet",
+        "title": "UX Design Principles",
+        "author": "Isabella Chen",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-09",
+        "reading_time": 5,
+        "hashtags": ["user_experience", "design_thinking", "usability"]
+    },
+    {
+        "id": 9,
+        "cover_pic": "http://surl.li/trxfn",
+        "title": "Blockchain Technology Explained",
+        "author": "David Kim",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-08",
+        "reading_time": 7,
+        "hashtags": ["cryptocurrency", "decentralization", "smart_contracts"]
+    },
+    {
+        "id": 10,
+        "cover_pic": "http://surl.li/trxfy",
+        "title": "Effective Time Management Strategies",
+        "author": "Olivia Adams",
+        "author_img": "https://via.placeholder.com/50",
+        "posted_date": "2024-05-07",
+        "reading_time": 4,
+        "hashtags": ["productivity", "work_life_balance", "prioritization"]
+    }
+]
