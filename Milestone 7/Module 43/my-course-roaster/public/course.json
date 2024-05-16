@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "course_pic": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+        "title": "Introduction to Python Programming",
+        "course_details": "Learn the basics of Python programming",
+        "price": 49.99,
+        "credit_hour": 3
+    },
+    {
+        "id": 2,
+        "course_pic": "https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg",
+        "title": "Web Development with HTML, CSS, and JavaScript",
+        "course_details": "Build and style websites using HTML, CSS, and JavaScript.",
+        "price": 59.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 3,
+        "course_pic": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg",
+        "title": "Data Science with R Programming",
+        "course_details": "Explore data science techniques using the R programming language.",
+        "price": 69.99,
+        "credit_hour": 5
+    },
+    {
+        "id": 4,
+        "course_pic": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+        "title": "Learn Machine Learning Basics",
+        "course_details": "An introduction to machine learning concepts and algorithms.",
+        "price": 89.99,
+        "credit_hour": 6
+    },
+    {
+        "id": 5,
+        "course_pic": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+        "title": "Digital Marketing Fundamentals",
+        "course_details": "Learn the basics of digital marketing, including SEO, SEM, and SMM.",
+        "price": 39.99,
+        "credit_hour": 3
+    },
+    {
+        "id": 6,
+        "course_pic": "https://images.pexels.com/photos/4350087/pexels-photo-4350087.jpeg",
+        "title": "Graphic Design with Adobe Illustrator",
+        "course_details": "Create stunning graphics using Adobe Illustrator.",
+        "price": 79.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 7,
+        "course_pic": "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg",
+        "title": "Cybersecurity Essentials For Beginners",
+        "course_details": "Understand the fundamentals of cybersecurity.",
+        "price": 99.99,
+        "credit_hour": 5
+    },
+    {
+        "id": 8,
+        "course_pic": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+        "title": "Project Management Professional (PMP) Exam Prep",
+        "course_details": "Prepare for the PMP exam with comprehensive study materials.",
+        "price": 199.99,
+        "credit_hour": 8
+    },
+    {
+        "id": 9,
+        "course_pic": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg",
+        "title": "Financial Accounting Fundamentals",
+        "course_details": "Learn the principles of financial accounting.",
+        "price": 129.99,
+        "credit_hour": 6
+    }
+]
