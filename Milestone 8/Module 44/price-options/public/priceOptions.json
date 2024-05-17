@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 30,
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Free parking"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 50,
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Free parking",
+        "Access to group classes",
+        "1 personal training session per month"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 70,
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Free parking",
+        "Access to group classes",
+        "4 personal training sessions per month",
+        "Access to sauna and steam room",
+        "Towel service"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "VIP",
+      "price": 100,
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "Free parking",
+        "Access to group classes",
+        "8 personal training sessions per month",
+        "Access to sauna and steam room",
+        "Towel service",
+        "Nutritional counseling",
+        "Priority booking for classes",
+        "Free gym merchandise"
+      ]
+    }
+  ]
+  
