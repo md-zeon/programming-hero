@@ -7,15 +7,22 @@ import {
 import './index.css'
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/applied',
+        element: <AppliedJobs />,
       }
     ]
   },
