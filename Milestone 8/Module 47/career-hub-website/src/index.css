@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+a.active {
+    color: #9873FF !important;
+    text-decoration: underline wavy;
+}
+
+ul li a {
+    background-color: transparent !important;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #9873FF !important;
+    text-decoration: underline wavy;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #7E90FE, #9873FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  
