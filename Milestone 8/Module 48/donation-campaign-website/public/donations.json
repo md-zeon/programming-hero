@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1",
+    "picture": "https://newsinfo.inquirer.net/files/2019/07/22medical-mission.jpg",
+    "title": "Medical Supplies for Remote Areas",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "button_bg": "#0052FF",
+    "description": "This initiative focuses on delivering essential medical supplies to underserved and remote communities, where access to healthcare is limited. The supplies include a variety of medications, first aid kits, and healthcare tools necessary for both emergency situations and regular health maintenance. These provisions aim to improve the overall health and well-being of individuals in these areas by ensuring they have the resources needed to address common medical issues and manage chronic conditions effectively.",
+    "price": 500.0
+  },
+  {
+    "id": "2",
+    "picture": "https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/site/13987/images/Jey4cJwkSuq5WLAlDnSZ_15433779_1179432942143225_8656381268306105194_n.jpg",
+    "title": "Winter Clothing for Homeless",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "button_bg": "#79C23F",
+    "description": "This project provides warm winter clothing to homeless individuals, including jackets, scarves, hats, gloves, and socks. These items are crucial for helping them stay warm and healthy during the harsh winter months. By providing these essentials, the initiative aims to reduce the risk of hypothermia and other cold-related illnesses, offering comfort and dignity to those without permanent shelter.",
+    "price": 300.0
+  },
+  {
+    "id": "3",
+    "picture": "https://1.bp.blogspot.com/-BcZmUGJtclU/W_MtqnKAiRI/AAAAAAAAbz4/4p596h1rEH4Pa9Um2BLCs6jXM6QLVs7NwCLcBGAs/s1600/nutritious%2Bfoods%2Bfor%2Bchildren.jpg",
+    "title": "Nutritious Meals for Children",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "button_bg": "#F87147",
+    "description": "This program focuses on delivering healthy and balanced meals to children in need, ensuring they receive the necessary nutrition for their growth, development, and overall well-being. The meals are carefully planned to include a variety of nutrients that support cognitive and physical development, helping children perform better in school and lead healthier lives.",
+    "price": 200.0
+  },
+  {
+    "id": "4",
+    "picture": "https://img.freepik.com/premium-photo/school-girl-with-notebook-back-school-teen-girl-ready-study-happy-childhood_545934-8433.jpg",
+    "title": "School Supplies for Students",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "button_bg": "#FF444A",
+    "description": "This initiative ensures that students have access to necessary educational supplies such as notebooks, pens, pencils, backpacks, and other materials. By providing these essentials, the program aims to enhance students' learning experiences, improve academic performance, and encourage a love for learning. This support is vital for students from low-income families who may struggle to afford these basic educational tools.",
+    "price": 150.0
+  },
+  {
+    "id": "5",
+    "picture": "https://files.globalgiving.org/pfil/7301/pict_large.jpg?m=1294135842000",
+    "title": "Books for Rural Libraries",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "button_bg": "#FF444A",
+    "description": "This initiative stocks rural libraries with a wide range of educational books and resources, promoting literacy and learning among children and adults in remote areas. By providing access to knowledge and information, the program aims to foster a love for reading, enhance educational opportunities, and support lifelong learning in these communities.",
+    "price": 220.0
+  },
+  {
+    "id": "6",
+    "picture": "https://www.mindanews.com/wp-content/uploads/2020/06/m02foodpacks_web.jpg",
+    "title": "Food Packs for Families",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "button_bg": "#F87147",
+    "description": "This program distributes food packs containing essential groceries and non-perishable items to families struggling with hunger. The food packs are designed to meet daily nutritional needs, helping to alleviate food insecurity and ensure that families have access to sufficient and nutritious food. This support is critical for maintaining the health and well-being of vulnerable populations.",
+    "price": 180.0
+  },
+  {
+    "id": "7",
+    "picture": "https://th.bing.com/th/id/R.9d172bb3e60653e6da99d06966e6bb1c?rik=FSKFf8%2bvj1VZWQ&riu=http%3a%2f%2fwww.washingtonpost.com%2fblogs%2fmonkey-cage%2ffiles%2f2015%2f02%2fcrop_358bigstock-vaccination-6365007.jpg&ehk=9YZ6mSGxOL9NQ05nOlNkLa9L5qkm1dP1Hg7%2fjq7e68U%3d&risl=&pid=ImgRaw&r=0",
+    "title": "Vaccination Drive",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "button_bg": "#0052FF",
+    "description": "Organizing vaccination drives to prevent the spread of infectious diseases is the focus of this initiative. By providing vaccines and immunization services to communities with limited access to healthcare facilities, the program aims to protect individuals from preventable diseases, improve public health, and reduce healthcare costs associated with treating these illnesses.",
+    "price": 600.0
+  },
+
+  {
+    "id": "8",
+    "picture": "https://th.bing.com/th/id/R.8dc4cb3b1bd8e5af2ad21510ef2b0304?rik=5YaW08NniGjxPA&riu=http%3a%2f%2fwww.unhcr.org%2fhk%2fwp-content%2fuploads%2fsites%2f13%2f2016%2f08%2fRF181239_01930.jpg&ehk=0cZD%2fvzqFxZACFNuoooT%2bHYdn2DT%2fcpMmwcq9MX22pE%3d&risl=&pid=ImgRaw&r=0",
+    "title": "Blankets for Refugees",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "button_bg": "#79C23F",
+    "description": "This project provides warm blankets to refugees living in camps, offering them comfort and protection against cold weather conditions. By ensuring that refugees have access to this basic necessity, the initiative helps improve their living conditions, offering a sense of security and warmth in their challenging circumstances.",
+    "price": 250.0
+  },
+
+  {
+    "id": "9",
+    "picture": "https://th.bing.com/th/id/R.d81afbb817c712f7e227669cd720da41?rik=aWeir8A4O9JpLw&pid=ImgRaw&r=0",
+    "title": "First Aid Kits for Disaster Areas",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_color": "#0052FF",
+    "button_bg": "#0052FF",
+    "description": "This project provides first aid kits to areas affected by natural disasters, ensuring that individuals have access to immediate medical care and supplies during emergencies. These kits include essential items such as bandages, antiseptics, and other medical tools necessary for treating injuries and preventing infections, thereby enhancing the resilience and recovery of disaster-stricken communities.",
+    "price": 350.0
+  },
+  {
+    "id": "10",
+    "picture": "https://th.bing.com/th/id/R.6b36ddfe6fc04aac2cd5be1940cacb5f?rik=n82PzguJa9DQrg&pid=ImgRaw&r=0",
+    "title": "Shoes for School Children",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_color": "#79C23F",
+    "button_bg": "#79C23F",
+    "description": "This initiative supplies school children with new and durable shoes, ensuring they can attend school comfortably and confidently. By providing proper footwear, the program helps to prevent health issues related to inadequate footwear, such as injuries and infections, and promotes better attendance and participation in school activities.",
+    "price": 100.0
+  },
+  {
+    "id": "11",
+    "picture": "https://th.bing.com/th/id/OIP.OzOA-G0KVN4WFH93xVFaOgHaFj?rs=1&pid=ImgDetMain",
+    "title": "Community Kitchen Support",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_color": "#F87147",
+    "button_bg": "#F87147",
+    "description": "This project supports community kitchens that provide free meals to the needy, ensuring that vulnerable populations have access to nutritious food and a safe place to eat. These kitchens play a crucial role in combating hunger and food insecurity, offering not only meals but also a sense of community and support for those in need.",
+    "price": 400.0
+  },
+  {
+    "id": "12",
+    "picture": "https://learningperformance.com/wp-content/uploads/2020/09/AdobeStock_146225552-scaled.jpeg",
+    "title": "Educational Workshops",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_color": "#FF444A",
+    "button_bg": "#FF444A",
+    "description": "This initiative organizes educational workshops for underprivileged children, covering a range of topics from basic literacy and numeracy to life skills and vocational training. By providing these educational opportunities, the program aims to empower children with the knowledge and skills needed to build a brighter future, enhancing their academic achievements and life prospects.",
+    "price": 300.0
+  }
+]
